@@ -49,7 +49,8 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     OpenDelta \
     Ripple \
-    Panic
+    Panic \
+    LMOFreeform
 
 # TextClassifier
 PRODUCT_PACKAGES += \
