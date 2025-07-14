@@ -18,6 +18,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     QuickAccessWallet
 
-# Enable support of one-handed mode
+# Enable support of one-handed mode and BT auto-on
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.support_one_handed_mode=true
+    ro.support_one_handed_mode=true \
+    bluetooth.server.automatic_turn_on=true
